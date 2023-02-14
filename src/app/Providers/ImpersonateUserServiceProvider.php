@@ -7,7 +7,7 @@ use Illuminate\Contracts\Http\Kernel;
 
 class ImpersonateUserServiceProvider extends ServiceProvider
 {
-    public function boot(Kernel $kernel): void
+    public function boot(): void
     {
         // Config
         $this->publishes([
